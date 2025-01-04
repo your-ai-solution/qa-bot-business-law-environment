@@ -1,0 +1,9 @@
+
+torch
+faiss-cpu
+langchain
+langchain_huggingface
+langchain_community
+transformers
+PyMuPDF
+requests

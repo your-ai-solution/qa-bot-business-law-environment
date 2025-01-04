@@ -1,0 +1,17 @@
+
+name: qa-bot-business-law-environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - torch
+  - faiss-cpu
+  - pip
+  - pip:
+      - langchain
+      - langchain_huggingface
+      - langchain_community
+      - transformers
+      - PyMuPDF
+      - requests
