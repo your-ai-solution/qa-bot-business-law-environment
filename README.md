@@ -1,6 +1,6 @@
 #  QA Bot: Business Law and Legal Environment
 
-This application leverages retrieval-augmented generation (RAG) and large language models (LLMs) to answer questions about business laws and the legal environment. RAG combines a Facebook AI Similarity Search (FAISS)-based retrieval mechanism to fetch relevant document chunks with GPT-2, an LLM, to generate accurate and context-aware answers. This approach ensures responses are both grounded in reliable data and enhanced by the generative capabilities of advanced LLMs.
+This application leverages retrieval-augmented generation (RAG) and large language models (LLMs) to answer questions about business laws and the legal environment. RAG combines a Facebook AI Similarity Search (FAISS)-based retrieval mechanism to fetch relevant document chunks with GPT-2, one of the early LLMs, to generate accurate and context-aware answers. This approach ensures responses are both grounded in reliable data and enhanced by the generative capabilities of advanced LLMs.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -88,8 +88,8 @@ qa-bot-business-law-environment/
 ├── README.md                       # Project README
 ├── requirements.txt                # Python dependencies
 └── src/                            # Source code
-    ├── data.py                     # Script for data preparation and FAISS indexing
-    └── build.py                    # Script for retrieving and answering queries
+    ├── build.py                    # Script for retrieving and answering queries
+    └── data.py                     # Script for data preparation and FAISS indexing
 ```
 
 ## Installation
